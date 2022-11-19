@@ -1,0 +1,37 @@
+.MyPage{
+    background-color: rgb(69, 69, 79);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alert-primary{
+    border-radius: 0.3vmax;
+    background-color: aqua;
+    height: 77vh;
+}
+.card-body{
+  height: 48vh;
+  overflow: hidden;
+  background-color: rgb(205, 224, 110);
+}
+.bi-chat-square-heart{
+  font-size: 1.5rem;
+  
+}
+.bi-x-square{
+  color: red;
+  font-size: 2;
+  
+}
+#messageInput{
+  border-radius: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.btn-success{
+  border-radius: 0%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
